@@ -1,0 +1,12 @@
+{
+  "name": "iso8601",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/potato4d/iso8601.git",
+  "author": "Takuma HANATANI <mail@potato4d.me>",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.8.20",
+    "parcel-bundler": "^1.12.4"
+  }
+}
