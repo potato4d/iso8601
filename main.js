@@ -1,12 +1,7 @@
 import dayjs from 'dayjs'
 const $now = document.getElementById('now')
-const $copy = document.getElementById('copy')
 
-$now.addEventListener('click', () => {
-  navigator.clipboard.writeText(dayjs().format())
-})
-
-$copy.addEventListener('click', () => {
+document.body.addEventListener('click', () => {
   navigator.clipboard.writeText(dayjs().format())
 })
 
